@@ -49,16 +49,15 @@ Grid area
 
 ### Continued development
 
-- Image opacity is incorrect and borders
-- Box shadows
+Not quiet perfect jet:
+- Image borders
+- Box shadows: no clear specs
 
 ### Useful resources
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@StijnvdW](https://www.frontendmentor.io/profile/StijnvdW)
+- GitHub - [@StijndvdW](https://github.com/StijnvdW)
+- Twitter - [@StijnvdW86](https://www.twitter.com/StijnvdW86)
 

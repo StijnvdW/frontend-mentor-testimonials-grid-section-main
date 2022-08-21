@@ -45,10 +45,8 @@ main {
 
 img {
     border-radius: 50%;
-    border: 2px solid var(--prim-color-white);
     width: 28px;
     height: 28px;
-    opacity: .7;
 }
 
 .graduate_info {
@@ -86,6 +84,10 @@ img {
     }
 }
 
+.testimonial-one > .testimonial_graduate > img {
+    border: 2px solid rgba(255, 255, 255, 50%);
+}
+
 .testimonial-two {
     grid-area: testimonialTwo;
     color: var(--prim-color-white);
@@ -106,6 +108,11 @@ img {
     color: var(--prim-color-white);
     box-shadow: 0px 10px 40px var(--neutral-color-gray);
 }
+
+.testimonial-four > .testimonial_graduate > img {
+    border: 2px solid rgba(117, 65, 200, 75%);
+}
+
 
 .testimonial-five {
     grid-area: testimonialFive;
