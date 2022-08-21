@@ -1,0 +1,17 @@
+:root {
+    --prim-color-moderate-violet: hsl(263, 55%, 52%);
+    --prim-color-dark-grayish-blue: hsl(217, 19%, 35%);
+    --prim-color-balckish-blue: hsl(219, 29%, 14%);
+    --prim-color-white: hsl(0, 0%, 100%);
+    --neutral-color-gray: hsl(0,0%,81%);
+    --neutral-color-grayish-blue: hsl(210, 46%, 95%);
+    --font-weight-normal: 500;
+    --font-weight-bold: 600;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 0.8125;
+    font-weight: var(--font-weight-normal);
+    background-color: var(--neutral-color-grayish-blue)
+}
