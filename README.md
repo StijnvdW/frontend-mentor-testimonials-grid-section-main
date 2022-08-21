@@ -12,10 +12,8 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -27,13 +25,19 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Desktop
+
+![Desktop](./screenshots/desktop.png)
+
+#### Mobile
+
+![Mobile](./screenshots/mobile.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/StijnvdW/frontend-mentor-testimonials-grid-section-main)
+- Live Site URL: [GitHub Pages](https://stijnvdw.github.io/frontend-mentor-testimonials-grid-section-main/)
 
 ## My process
 
@@ -43,17 +47,37 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+
 ### What I learned
 
-Grid area
+#### Grid area
+Each testimonial belongs to a grid area
+
+```css
+.testimonial-five {
+    grid-area: testimonialFive;
+}
+```
+
+Depending on the screen size a grid template areas property is defined:
+
+```css
+main {
+        display: grid;
+        grid-template-areas:
+        'testimonialOne testimonialOne testimonialTwo testimonialFive'
+        'testimonialThree testimonialFour testimonialFour testimonialFive';
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+```
 
 ### Continued development
 
-Not quiet perfect jet:
+Not quiet perfect yet:
 - Image borders
 - Box shadows: no clear specs
-
-### Useful resources
 
 ## Author
 

@@ -135,7 +135,8 @@ img {
         grid-template-areas:
         'testimonialOne testimonialOne testimonialTwo testimonialFive'
         'testimonialThree testimonialFour testimonialFour testimonialFive';
-        grid-template-rows: repeat(2, 17.625rem);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .graduate_info {
